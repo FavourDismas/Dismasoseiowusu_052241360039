@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color:black;
+    margin: 0;
+    overflow: hidden;
+}
+nav ul li {
+    display: inline;
+    padding: 1rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+main {
+    background-color: rgb(226, 43, 226);
+    background-image: url("timetable1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    backface-visibility: visible;
+}
+footer {
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    padding: 0rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

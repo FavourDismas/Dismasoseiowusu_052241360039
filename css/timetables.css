@@ -1,0 +1,46 @@
+/* Timetables Page Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: purple;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    .bg {
+        /* The image used */
+        background-image: url('timetable1.jpg');
+        /* Full height */
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    padding: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: olive;
+}
+
+a:hover {
+    text-decoration: underline;
+}
